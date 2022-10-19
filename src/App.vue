@@ -42,7 +42,7 @@ export default {
   },
   data () {
     return {
-      showSidebar: true,
+      showSidebar: false,
       inventory: food,
       cart: {}
     }
@@ -58,12 +58,11 @@ export default {
   },
   //
   methods: {
-    addToCart (name, index) {
-      console.log(name, index)
+    addToCart (name, quantity) {
+      console.log(name)
       if (!this.cart[name]) this.cart[name] = 0
-      this.cart[name] += this.inventory[index].quantity
+      this.cart[name] += quantity
       // تصفير مربع إدخال كمية المنتج
-      this.inventory[index].quantity = 0
       console.log(this.cart)
     },
     //
