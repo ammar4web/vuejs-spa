@@ -1,5 +1,7 @@
-# Project with free-code-camp Course
-Check out the [live demo](https://vue-freecodecamp-course.ammar4web.com/) of this projec
+# I built this Project with free-code-camp Course
+Check out the [live demo](https://vue-freecodecamp-course.ammar4web.com/) of this projec.
+
+Check out this [Vue.js Course](https://youtu.be/FXpIoQ_rT_c?t=8781) by Free Code Camp on YouTube.
 
 ## Project setup
 ```
@@ -20,6 +22,3 @@ npm run build
 ```
 npm run lint
 ```
-
-## Free Code Camp Course on Web Development
-Check out this [Vue.js Course](https://youtu.be/FXpIoQ_rT_c?t=8781) by Free Code Camp on YouTube.
